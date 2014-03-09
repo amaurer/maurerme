@@ -6,9 +6,17 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Andrew Maurer (maurerdotme) - {{title}}</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Andrew Maurer, Node.js, JavaScript, jQuery, ColdFusion, MSSQL, MySQL">
+
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="screen">	
+		<link rel="stylesheet" type="text/css" href="/css/magnific-popup.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="/css/font-awesome.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="/css/flexslider.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="/css/responsive.css" media="screen">
 
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -21,8 +29,34 @@
 		<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
+		
+		<!-- Container -->
+		<div id="container">
+			
+			{{> side-menu}}
 
-		{{{body}}}
+			<!-- content 
+				================================================== -->
+
+				{{{body}}}
+			<!-- End content -->
+
+		</div>
+		<!-- End Container -->
+
+		<div class="preloader">
+			<img alt="" src="images/preloader.GIF"/>
+		</div>
+
+		<script type="text/javascript" src="/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.migrate.js"></script>
+		<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="/js/plugins-scroll.js"></script>
+		<script type="text/javascript" src="/js/bootstrap.js"></script>
+		<script type="text/javascript" src="/js/jquery.imagesloaded.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="/js/retina-1.1.0.min.js"></script>
+		<script type="text/javascript" src="/js/script.js"></script>
 
 		<!--
 		Google Analytics: change UA-XXXXX-X to be your site's ID.

@@ -16,7 +16,7 @@ var app = express();
 		,partialsDir: path.join(__dirname, "/views/partials")
 	}));
 	app.set("view engine", "handlebars");
-	//app.use(express.favicon());
+	app.use(express.favicon(path.join(__dirname, "/public/images/favicon.ico"))); 
 	app.use(express.logger("dev"));
 	//app.use(express.json());
 	app.use(express.urlencoded());
@@ -27,15 +27,13 @@ var app = express();
 // development only
 if ("development" == app.get("env")) {
 	app.use(express.errorHandler());
-	/*
 	var app2 = express();
 		app2.set("port", 3000);
 		app2.use(app2.router);
-		app2.use(express.static(path.join(__dirname, "template-orig/Producr_HTML")));
+		app2.use(express.static(path.join(__dirname, "template-orig/html")));
 	app2.listen(app2.get("port"), function(){
 	  console.log("Express server listening on port " + app2.get("port"));
 	});
-	*/
 };
 
 mymvc.init([app]);

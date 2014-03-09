@@ -1,1 +1,23 @@
-hello handlebars
+
+<div id="content">
+	<div class="inner-content">
+		<div class="portfolio-page">
+			<div class="portfolio-box">
+
+				{{#each projectPost}}
+				<div class="project-post">
+					<img alt="{{imgAlt}}" src="{{img}}">
+					<div class="hover-box">
+						<div class="hover-content">
+							<a href="{{img}}" class="zoom"><i class="fa fa-search"></i></a>
+							<h2>{{title}}</h2>
+							<p>{{desc}}</p>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+
+			</div>
+		</div>
+	</div>
+</div>
