@@ -1,0 +1,27 @@
+{
+	"name": "maurerdotme",
+	"version": "0.2.1",
+	"description": "About Andrew Maurer - JavaScript guru, ColdFusion master",
+	"main": "./app.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/amaurer/maurerdotme.git"
+	},
+	"keywords": [
+		"JavaScript",
+		"Nodejs",
+		"ColdFusion",
+		"Photos",
+		"Pictures",
+		"Photography",
+		"MSSQL",
+		"MYSQL"
+	],
+	"author": "Andrew Maurer <andrew@maurer.me>",
+	"license": "MIT",
+	"dependencies": {
+		 "mymvc" : "*"
+		,"express": "*"
+		,"express3-handlebars": ">= 0.5.0"
+	}
+}
