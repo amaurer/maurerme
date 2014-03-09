@@ -1,8 +1,12 @@
 {
 	"name": "maurerdotme",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "About Andrew Maurer - JavaScript guru, ColdFusion master",
 	"main": "./app.js",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/amaurer/maurerdotme.git"
@@ -17,7 +21,7 @@
 		"MSSQL",
 		"MYSQL"
 	],
-	"author": "Andrew Maurer <andrew@maurer.me>",
+  "author": "amaurer",
 	"license": "MIT",
 	"dependencies": {
 		 "mymvc" : "*"
