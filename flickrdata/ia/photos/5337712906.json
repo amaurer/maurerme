@@ -1,0 +1,103 @@
+{
+  "id": "5337712906",
+  "secret": "3ae1db3d5a",
+  "server": "5005",
+  "farm": 6,
+  "dateuploaded": "1294535035",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "9e62b39d27",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Angela Maurer"
+  },
+  "description": {
+    "_content": "Angela's Podiatry student photo. "
+  },
+  "visibility": {
+    "ispublic": 0,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1294535035",
+    "taken": "2010-02-01 00:00:00",
+    "takengranularity": "4",
+    "lastupdate": "1345907271"
+  },
+  "permissions": {
+    "permcomment": 0,
+    "permaddmeta": 0
+  },
+  "views": "16",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 0,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-5337712906-31783",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Angela",
+        "_content": "angela",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5337712906-160096",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Podiatry",
+        "_content": "podiatry",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "http://www.flickr.com/photos/58050551@N04/5337712906/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "o"
+  ]
+}

@@ -1,2 +1,4 @@
 template-orig/
 node_modules/
+flickrdata/images/
+customSettings.json

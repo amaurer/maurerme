@@ -1,0 +1,113 @@
+{
+  "id": "6292581349",
+  "secret": "0809a945f9",
+  "server": "6103",
+  "farm": 7,
+  "dateuploaded": "1319929206",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "46616d409c",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Valley View Field"
+  },
+  "description": {
+    "_content": ""
+  },
+  "visibility": {
+    "ispublic": 1,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1319929206",
+    "taken": "2011-10-22 17:30:02",
+    "takengranularity": "0",
+    "lastupdate": "1320532920"
+  },
+  "permissions": {
+    "permcomment": 3,
+    "permaddmeta": 2
+  },
+  "views": "11",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 1,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-6292581349-676190",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2011",
+        "_content": "2011",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6292581349-226",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Ohio",
+        "_content": "ohio",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6292581349-613",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Fall",
+        "_content": "fall",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "http://www.flickr.com/photos/58050551@N04/6292581349/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "b",
+    "o"
+  ]
+}

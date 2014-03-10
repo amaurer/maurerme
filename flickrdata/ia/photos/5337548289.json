@@ -1,0 +1,104 @@
+{
+  "id": "5337548289",
+  "secret": "39ea00e434",
+  "server": "5162",
+  "farm": 6,
+  "dateuploaded": "1294546397",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "bbd2741031",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Pole Climbing School"
+  },
+  "description": {
+    "_content": ""
+  },
+  "visibility": {
+    "ispublic": 1,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1294546397",
+    "taken": "2005-06-01 00:00:00",
+    "takengranularity": "4",
+    "lastupdate": "1294711705"
+  },
+  "permissions": {
+    "permcomment": 3,
+    "permaddmeta": 2
+  },
+  "views": "10",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 1,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-5337548289-1373",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Work",
+        "_content": "work",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5337548289-9205",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2006",
+        "_content": "2006",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "http://www.flickr.com/photos/58050551@N04/5337548289/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "o"
+  ]
+}

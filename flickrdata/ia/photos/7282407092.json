@@ -1,0 +1,106 @@
+{
+  "id": "7282407092",
+  "secret": "b2773ef947",
+  "server": "7090",
+  "farm": 8,
+  "dateuploaded": "1338156153",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "016a73f57c",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "hdr-dead-man-walking"
+  },
+  "description": {
+    "_content": ""
+  },
+  "visibility": {
+    "ispublic": 1,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1338156153",
+    "taken": "2012-05-27 15:00:35",
+    "takengranularity": "0",
+    "lastupdate": "1338156157"
+  },
+  "permissions": {
+    "permcomment": 3,
+    "permaddmeta": 2
+  },
+  "views": "10",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 1,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-7282407092-226",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Ohio",
+        "_content": "ohio",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-7282407092-101887",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2012",
+        "_content": "2012",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/7282407092/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "c",
+    "b",
+    "o"
+  ]
+}

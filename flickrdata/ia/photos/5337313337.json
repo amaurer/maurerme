@@ -1,0 +1,113 @@
+{
+  "id": "5337313337",
+  "secret": "4d53fefd5d",
+  "server": "5209",
+  "farm": 6,
+  "dateuploaded": "1294540273",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "63d85acb23",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Thanksgiving 2010"
+  },
+  "description": {
+    "_content": "Thanksgiving 2010 Family Photo"
+  },
+  "visibility": {
+    "ispublic": 0,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1294540273",
+    "taken": "2010-11-27 16:31:13",
+    "takengranularity": "0",
+    "lastupdate": "1345907369"
+  },
+  "permissions": {
+    "permcomment": 0,
+    "permaddmeta": 0
+  },
+  "views": "19",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 0,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-5337313337-130",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Family",
+        "_content": "family",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5337313337-60",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Thanksgiving",
+        "_content": "thanksgiving",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5337313337-113574",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2010",
+        "_content": "2010",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/5337313337/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "b",
+    "o"
+  ]
+}

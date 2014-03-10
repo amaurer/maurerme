@@ -1,0 +1,113 @@
+{
+  "id": "5337703210",
+  "secret": "8b05531f2a",
+  "server": "5042",
+  "farm": 6,
+  "dateuploaded": "1294534808",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "67f333f2c9",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Christmas 2010 - New Treadmill"
+  },
+  "description": {
+    "_content": "Angela's new treadmill."
+  },
+  "visibility": {
+    "ispublic": 0,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1294534808",
+    "taken": "2010-12-01 00:00:00",
+    "takengranularity": "4",
+    "lastupdate": "1345907371"
+  },
+  "permissions": {
+    "permcomment": 0,
+    "permaddmeta": 0
+  },
+  "views": "6",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 0,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-5337703210-113574",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2010",
+        "_content": "2010",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5337703210-130",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Family",
+        "_content": "family",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5337703210-82",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Christmas",
+        "_content": "christmas",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/5337703210/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "b",
+    "o"
+  ]
+}

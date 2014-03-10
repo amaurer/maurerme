@@ -6,14 +6,16 @@ function home(){
 
 home.prototype.init = function(mymvc, app) {
 
+console.log(mymvc.models)
+
 	app.get("/", function(req, res){
+		var flickrSets = mymvc.models.flickr.getSetsByTitle([
+			 "Photography"
+			,"Brecksville River"
+			,"Ohio State Reformatory"
+		]);
 		res.render("home", {
-			projectPost : [{
-				 img : "test.jpg"
-				,imgAlt : "test"
-				,title : "test"
-				,desc : "test"
-			}]
+			flickrCollection : mymvc.models.flickr.flattenSetsToPhotos(flickrSets)
 		});
 	});
 
@@ -23,6 +25,7 @@ home.prototype.init = function(mymvc, app) {
 			pageTitle : "404 Error"
 		});
 	});
+
 
 };
 

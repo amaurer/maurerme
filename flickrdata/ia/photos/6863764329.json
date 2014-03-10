@@ -1,0 +1,129 @@
+{
+  "id": "6863764329",
+  "secret": "8c5ce1b24b",
+  "server": "7048",
+  "farm": 8,
+  "dateuploaded": "1329067745",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "f26788c43d",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Zeke by Seven Hills Rec Lake"
+  },
+  "description": {
+    "_content": ""
+  },
+  "visibility": {
+    "ispublic": 1,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1329067745",
+    "taken": "2012-02-04 16:29:05",
+    "takengranularity": "0",
+    "lastupdate": "1329067990"
+  },
+  "permissions": {
+    "permcomment": 3,
+    "permaddmeta": 2
+  },
+  "views": "22",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 1,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-6863764329-37568",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Zeke",
+        "_content": "zeke",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6863764329-22796",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Monsters",
+        "_content": "monsters",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6863764329-101887",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2012",
+        "_content": "2012",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6863764329-201",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Winter",
+        "_content": "winter",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6863764329-226",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Ohio",
+        "_content": "ohio",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/6863764329/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "b",
+    "o"
+  ]
+}

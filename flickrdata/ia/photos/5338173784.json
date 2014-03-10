@@ -1,0 +1,120 @@
+{
+  "id": "5338173784",
+  "secret": "3c425feafb",
+  "server": "5044",
+  "farm": 6,
+  "dateuploaded": "1294546785",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "cbc6c9238e",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Thanksgiving Family Photo"
+  },
+  "description": {
+    "_content": ""
+  },
+  "visibility": {
+    "ispublic": 0,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1294546785",
+    "taken": "2008-11-01 00:00:00",
+    "takengranularity": "4",
+    "lastupdate": "1345907367"
+  },
+  "permissions": {
+    "permcomment": 0,
+    "permaddmeta": 0
+  },
+  "views": "3",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 0,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-5338173784-30259434",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Thanksgiving2009",
+        "_content": "thanksgiving2009",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5338173784-9396",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Andrew",
+        "_content": "andrew",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5338173784-31783",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Angela",
+        "_content": "angela",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5338173784-130",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Family",
+        "_content": "family",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/5338173784/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "o"
+  ]
+}

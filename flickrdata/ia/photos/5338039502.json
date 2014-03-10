@@ -1,0 +1,129 @@
+{
+  "id": "5338039502",
+  "secret": "132c2b1e2d",
+  "server": "5290",
+  "farm": 6,
+  "dateuploaded": "1294543206",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "e8ea880e32",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Running 2"
+  },
+  "description": {
+    "_content": "Monsters racing on the Towpath in Ohio."
+  },
+  "visibility": {
+    "ispublic": 1,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1294543206",
+    "taken": "2009-06-01 00:00:00",
+    "takengranularity": "4",
+    "lastupdate": "1294712053"
+  },
+  "permissions": {
+    "permcomment": 3,
+    "permaddmeta": 2
+  },
+  "views": "7",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 1,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-5338039502-22796",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Monsters",
+        "_content": "monsters",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5338039502-65531351",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Ohio Towpath",
+        "_content": "ohiotowpath",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5338039502-48795",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2009",
+        "_content": "2009",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5338039502-6828",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Sid",
+        "_content": "sid",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5338039502-37568",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Zeke",
+        "_content": "zeke",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/5338039502/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "b",
+    "o"
+  ]
+}

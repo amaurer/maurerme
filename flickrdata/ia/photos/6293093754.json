@@ -1,0 +1,105 @@
+{
+  "id": "6293093754",
+  "secret": "3ecbc8a323",
+  "server": "6225",
+  "farm": 7,
+  "dateuploaded": "1319928958",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "b30e280960",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "My Brothers and Myself"
+  },
+  "description": {
+    "_content": "Brothers and me"
+  },
+  "visibility": {
+    "ispublic": 1,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1319928958",
+    "taken": "2011-09-24 19:30:00",
+    "takengranularity": "0",
+    "lastupdate": "1320533064"
+  },
+  "permissions": {
+    "permcomment": 3,
+    "permaddmeta": 2
+  },
+  "views": "5",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 1,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-6293093754-676190",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2011",
+        "_content": "2011",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6293093754-68053",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Brithday",
+        "_content": "brithday",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/6293093754/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "b",
+    "o"
+  ]
+}

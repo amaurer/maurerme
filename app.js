@@ -31,9 +31,19 @@ if ("development" == app.get("env")) {
 		app2.set("port", 3000);
 		app2.use(app2.router);
 		app2.use(express.static(path.join(__dirname, "template-orig/html")));
-	app2.listen(app2.get("port"), function(){
-	  console.log("Express server listening on port " + app2.get("port"));
-	});
+		app2.listen(app2.get("port"), function(){
+		  console.log("Express server2 listening on port " + app2.get("port"));
+		});
+	/*
+	var fs = require("fs");
+	var customSettings = JSON.parse(fs.readFileSync("./customSettings.json"));
+	var Flickr = require("flickrapi");
+	var flickrOptions = {
+		api_key: customSettings.flickr.apiKey,
+		secret: "customSettings.flickr.secretKey
+	};
+	Flickr.authenticate(flickrOptions, Flickr.downsync(path.join(__dirname, "/flickrdata/")));
+	*/
 };
 
 mymvc.init([app]);

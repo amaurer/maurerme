@@ -1,0 +1,122 @@
+{
+  "id": "6810534120",
+  "secret": "5fbf6b55b9",
+  "server": "7066",
+  "farm": 8,
+  "dateuploaded": "1330975275",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "5538d1eab0",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Lazy Days Sid Up Stairs"
+  },
+  "description": {
+    "_content": ""
+  },
+  "visibility": {
+    "ispublic": 1,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1330975275",
+    "taken": "2012-03-05 11:21:15",
+    "takengranularity": "0",
+    "lastupdate": "1330975587"
+  },
+  "permissions": {
+    "permcomment": 3,
+    "permaddmeta": 2
+  },
+  "views": "12",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 1,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-6810534120-8255",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Maryland",
+        "_content": "maryland",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6810534120-101887",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2012",
+        "_content": "2012",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6810534120-22796",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Monsters",
+        "_content": "monsters",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6810534120-6828",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Sid",
+        "_content": "sid",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/6810534120/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "c",
+    "b",
+    "o"
+  ]
+}

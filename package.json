@@ -1,6 +1,6 @@
 {
 	"name": "maurerdotme",
-	"version": "0.2.2",
+	"version": "0.2.5",
 	"description": "About Andrew Maurer - JavaScript guru, ColdFusion master",
 	"main": "./app.js",
 	"private": true,
@@ -27,5 +27,6 @@
 		 "mymvc" : "*"
 		,"express": "*"
 		,"express3-handlebars": ">= 0.5.0"
+		,"flickrapi": "*"
 	}
 }

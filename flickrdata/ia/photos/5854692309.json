@@ -1,0 +1,121 @@
+{
+  "id": "5854692309",
+  "secret": "8f52211bdb",
+  "server": "5033",
+  "farm": 6,
+  "dateuploaded": "1308619757",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "63964ce287",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Brandywine Falls - Angela"
+  },
+  "description": {
+    "_content": ""
+  },
+  "visibility": {
+    "ispublic": 0,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1308619757",
+    "taken": "2011-06-20 18:29:17",
+    "takengranularity": "0",
+    "lastupdate": "1345907362"
+  },
+  "permissions": {
+    "permcomment": 0,
+    "permaddmeta": 0
+  },
+  "views": "4",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 0,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-5854692309-180287",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Brandywine Falls",
+        "_content": "brandywinefalls",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5854692309-676190",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2011",
+        "_content": "2011",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5854692309-226",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Ohio",
+        "_content": "ohio",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5854692309-31783",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Angela",
+        "_content": "angela",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "http://www.flickr.com/photos/58050551@N04/5854692309/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "b",
+    "o"
+  ]
+}

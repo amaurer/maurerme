@@ -1,0 +1,114 @@
+{
+  "id": "6932487660",
+  "secret": "56ae2d19b8",
+  "server": "7120",
+  "farm": 8,
+  "dateuploaded": "1334458667",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "3557ef45e6",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Takeoff - Tarmac"
+  },
+  "description": {
+    "_content": ""
+  },
+  "visibility": {
+    "ispublic": 1,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1334458667",
+    "taken": "2012-04-14 17:25:58",
+    "takengranularity": "0",
+    "lastupdate": "1334459283"
+  },
+  "permissions": {
+    "permcomment": 3,
+    "permaddmeta": 2
+  },
+  "views": "2",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 1,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-6932487660-101887",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2012",
+        "_content": "2012",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6932487660-2317",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Flying",
+        "_content": "flying",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-6932487660-226",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Ohio",
+        "_content": "ohio",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/6932487660/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "c",
+    "b",
+    "o"
+  ]
+}

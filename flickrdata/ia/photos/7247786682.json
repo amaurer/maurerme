@@ -1,0 +1,130 @@
+{
+  "id": "7247786682",
+  "secret": "44f161034b",
+  "server": "7225",
+  "farm": 8,
+  "dateuploaded": "1337676716",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 90,
+  "originalsecret": "a7c961210f",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": ""
+  },
+  "description": {
+    "_content": ""
+  },
+  "visibility": {
+    "ispublic": 0,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1337676716",
+    "taken": "2012-05-20 20:11:12",
+    "takengranularity": "0",
+    "lastupdate": "1345907357"
+  },
+  "permissions": {
+    "permcomment": 0,
+    "permaddmeta": 0
+  },
+  "views": "8",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 0,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-7247786682-226",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Ohio",
+        "_content": "ohio",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-7247786682-101887",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2012",
+        "_content": "2012",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-7247786682-22796",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Monsters",
+        "_content": "monsters",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-7247786682-37568",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Zeke",
+        "_content": "zeke",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-7247786682-31783",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Angela",
+        "_content": "angela",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/7247786682/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "c",
+    "b",
+    "o"
+  ]
+}

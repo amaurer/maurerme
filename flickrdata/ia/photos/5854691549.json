@@ -1,0 +1,129 @@
+{
+  "id": "5854691549",
+  "secret": "89f8e243f6",
+  "server": "3094",
+  "farm": 4,
+  "dateuploaded": "1308619741",
+  "isfavorite": 0,
+  "license": "0",
+  "safety_level": "0",
+  "rotation": 0,
+  "originalsecret": "3b3b496a3c",
+  "originalformat": "jpg",
+  "owner": {
+    "nsid": "58050551@N04",
+    "username": "atmaurer",
+    "realname": "",
+    "location": "",
+    "iconserver": "0",
+    "iconfarm": 0,
+    "path_alias": null
+  },
+  "title": {
+    "_content": "Brandywine Falls - Angela Zeke"
+  },
+  "description": {
+    "_content": ""
+  },
+  "visibility": {
+    "ispublic": 1,
+    "isfriend": 0,
+    "isfamily": 0
+  },
+  "dates": {
+    "posted": "1308619741",
+    "taken": "2011-06-20 18:29:01",
+    "takengranularity": "0",
+    "lastupdate": "1308620584"
+  },
+  "permissions": {
+    "permcomment": 3,
+    "permaddmeta": 2
+  },
+  "views": "34",
+  "editability": {
+    "cancomment": 1,
+    "canaddmeta": 1
+  },
+  "publiceditability": {
+    "cancomment": 1,
+    "canaddmeta": 0
+  },
+  "usage": {
+    "candownload": 1,
+    "canblog": 1,
+    "canprint": 1,
+    "canshare": 0
+  },
+  "comments": {
+    "_content": "0"
+  },
+  "notes": {
+    "note": []
+  },
+  "people": {
+    "haspeople": 0
+  },
+  "tags": {
+    "tag": [
+      {
+        "id": "58018412-5854691549-180287",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Brandywine Falls",
+        "_content": "brandywinefalls",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5854691549-676190",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "2011",
+        "_content": "2011",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5854691549-226",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Ohio",
+        "_content": "ohio",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5854691549-31783",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Angela",
+        "_content": "angela",
+        "machine_tag": 0
+      },
+      {
+        "id": "58018412-5854691549-37568",
+        "author": "58050551@N04",
+        "authorname": "atmaurer",
+        "raw": "Zeke",
+        "_content": "zeke",
+        "machine_tag": 0
+      }
+    ]
+  },
+  "urls": {
+    "url": [
+      {
+        "type": "photopage",
+        "_content": "https://www.flickr.com/photos/58050551@N04/5854691549/"
+      }
+    ]
+  },
+  "media": "photo",
+  "sizes": [
+    "s",
+    "q",
+    "t",
+    "m",
+    "z",
+    "b",
+    "o"
+  ]
+}

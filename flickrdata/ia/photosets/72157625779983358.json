@@ -1,0 +1,32 @@
+{
+  "id": "72157625779983358",
+  "primary": "5337860794",
+  "secret": "2c9456c78e",
+  "server": "5161",
+  "farm": 6,
+  "photos": [
+    "5337860794",
+    "5337247653",
+    "5337860722",
+    "5337860686",
+    "5337860664",
+    "5337247449",
+    "5337247381",
+    "5337860456",
+    "5337247243"
+  ],
+  "videos": 0,
+  "title": {
+    "_content": "Niagara Falls 2010"
+  },
+  "description": {
+    "_content": ""
+  },
+  "needs_interstitial": 0,
+  "visibility_can_see_set": 1,
+  "count_views": "2",
+  "count_comments": "0",
+  "can_comment": 1,
+  "date_create": "1294539130",
+  "date_update": "1357346977"
+}
