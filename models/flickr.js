@@ -4,7 +4,6 @@ function flickr(){
 	var path = require("path");
 	this.Flickr = require("flickrapi");
     this.data = this.Flickr.loadLocally(path.join(__dirname, "../flickrdata/"));
-    return this;
 };
 
 

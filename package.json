@@ -1,6 +1,6 @@
 {
 	"name": "maurerdotme",
-	"version": "0.2.5",
+	"version": "0.2.6",
 	"description": "About Andrew Maurer - JavaScript guru, ColdFusion master",
 	"main": "./app.js",
 	"private": true,
@@ -15,11 +15,12 @@
 		"JavaScript",
 		"Nodejs",
 		"ColdFusion",
+		"MSSQL",
+		"MYSQL",
 		"Photos",
 		"Pictures",
 		"Photography",
-		"MSSQL",
-		"MYSQL"
+		"Flickr"
 	],
   "author": "amaurer",
 	"license": "MIT",

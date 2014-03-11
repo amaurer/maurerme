@@ -30,7 +30,7 @@ if ("development" == app.get("env")) {
 	var app2 = express();
 		app2.set("port", 3000);
 		app2.use(app2.router);
-		app2.use(express.static(path.join(__dirname, "template-orig/html")));
+		app2.use(express.static(path.join(__dirname, "template-orig")));
 		app2.listen(app2.get("port"), function(){
 		  console.log("Express server2 listening on port " + app2.get("port"));
 		});

@@ -112,7 +112,7 @@ a.hide-menu {
     -moz-transition: all 0.17s ease-in-out;
     -webkit-transition: all 0.17s ease-in-out;
     -o-transition: all 0.17s ease-in-out;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     text-decoration: none;
 }
 
@@ -1613,7 +1613,7 @@ ul.star-rate li a i {
 .error-page span {
     display: block;
     margin-bottom: 30px;
-    margin-top: 90px;
+    margin-top: 30px;
 }
 
 .error-page span i {

@@ -6,8 +6,6 @@ function home(){
 
 home.prototype.init = function(mymvc, app) {
 
-console.log(mymvc.models)
-
 	app.get("/", function(req, res){
 		var flickrSets = mymvc.models.flickr.getSetsByTitle([
 			 "Photography"
