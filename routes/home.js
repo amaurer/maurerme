@@ -13,7 +13,8 @@ home.prototype.init = function(mymvc, app) {
 			,"Ohio State Reformatory"
 		]);
 		res.render("home", {
-			flickrCollection : mymvc.models.flickr.flattenSetsToPhotos(flickrSets)
+			 title : "Andrew Maurer - Sr. Web Developer in Cleveland."
+			,flickrCollection : mymvc.models.flickr.flattenSetsToPhotos(flickrSets)
 		});
 	});
 

@@ -7,7 +7,9 @@ function articles(){
 articles.prototype.init = function(mymvc, app) {
 
 	app.get("/articles/", function(req, res){
-		res.render("articles");
+		res.render("articles", {
+			title : "Articles from Andrew Maurer in Cleveland on Node.js, JavaScript, ColdFusion, Apache JMeter and other fun stuff."
+		});
 	});
 
 	app.get("/articles/:wholedate/:inc/:title", function(req, res, next){
