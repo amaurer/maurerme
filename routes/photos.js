@@ -1,5 +1,4 @@
 
-
 function photos(){
 };
 
@@ -13,12 +12,6 @@ photos.prototype.init = function(mymvc, app) {
 	});
 
 };
-
-photos.prototype.test = function() {
-
-
-};
-
 
 
 module.exports = new photos();

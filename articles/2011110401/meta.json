@@ -1,0 +1,6 @@
+{
+	"title": "Cachet - JavaScript Object Caching at your fingers!",
+	"summary": "I've created a caching module for Node.js, jQuery and JavaScript. Its easy to use and extremely simple.",
+	"tags": ["Caching", "Node.js", "JavaScript", "NPM"],
+	"urlTitle" : "javascript-caching-object-cachet"
+}

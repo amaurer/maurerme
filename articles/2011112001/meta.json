@@ -1,0 +1,6 @@
+{
+	"title": "Nodejs String Building - Buffers, Arrays and Concatenation",
+	"summary": "There have been plenty of concerns on building strings in JavaScript with the advent of single page browser applications. I'll go over the differences and the considerations.",
+	"tags": ["Performance", "Node.js", "Buffers"],
+	"urlTitle" : "nodejs-string-building"
+}
