@@ -1,12 +1,5 @@
-/***
-title=Hold on to your Butts!
-createdDateTime=1319887393000
-author=Andrew Maurer
-uid=2011102901
-summary=My first post on my new blog/photo gallery at maurer.me. I hope this is the first of very many!
-*/
 
-####Hold on to your Butts
+##Hold on to your Butts
 OK so why is this first article titled "Hold on to your Butts"? I've spent about a month (on and off) developing this site with the desire to become more social in the community. In that month, I've needed some Lorem Ipsum text to fill the gaps within the site. I could think of no other tool than the Samuel L Ipsum generator
 [http://slipsum.com/](http://slipsum.com/ "Samuel L. Ipsum"). Tons of fun right?
 
@@ -22,4 +15,4 @@ And much more!
 
 Here is the initial performance test of maurer.me using Node.js and Cluster with 4 workers.
 
-![Performance of Node.js with Cluster](/i/initial-performance-with-cluster.jpg)
+![Performance of Node.js with Cluster](/articles/2011102901/initial-performance-with-cluster.jpg)

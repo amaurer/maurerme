@@ -6,12 +6,14 @@
 
 				{{#each articles}}
 				<div class="blog-post">
+					{{#if image}}
 					<div class="gal-content">
-						<img alt="" src="/upload/blog9.jpg">
+						<img alt="{{urlTitle}}" {{{image}}}>
 						<div class="blog-hover">
 							<a class="read-more" href="/articles/{{@key}}/{{urlTitle}}/">Read More ></a>
 						</div>		
 					</div>
+					{{/if}}
 					<div class="post-title">
 						<h2><a href="/articles/{{@key}}/{{urlTitle}}/">{{title}}</a></h2>
 						<ul class="post-tags">

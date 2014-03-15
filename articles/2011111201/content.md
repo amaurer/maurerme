@@ -1,13 +1,5 @@
-/***
-title=Node.js, ODBC and MSSQL Connection
-createdDateTime=1321113481000
-author=Andrew Maurer
-uid=2011111201
-summary=I Finally got Nodejs connected to MSSQL via unixODBC and FreeTDS. It wasn't simple so here are my lessions learned
-tags=Nodejs,UnixODBC,MSSQL,Performance,FreeTDS
-*/
 
-###Routes taken
+##Routes taken
 In researching connecting Nodejs to MSSQL I found only a couple of solutions.
 
 * [An abandoned TDS project](https://github.com/orenmazor/node-tds)
@@ -18,7 +10,7 @@ I chose the first one to begin with. I got it "talking" to the MSSQL server but 
 ###Solution
 Plan B was to fall back to a (potentially) slower solution and that is ODBC. I was able to download the source and execute it. Now the learning curve was to figure out how to setup a ODBC connection on Ubuntu. [This post](http://lambie.org/2008/02/28/connecting-to-an-mssql-database-from-ruby-on-ubuntu/ "Ubuntu ODBC connect to MSSQL") was a big help configuring the ODBC connections with FreeTDS on Ubuntu. Couple of things I did differently, I didn't put my connection settings in the FreeTDS file but rather, I added it to the `/etc/odbc.ini` and `/etc/odbcinst.ini` files as shown below.
 
-#####/etc/odbc.ini File
+####/etc/odbc.ini File
 
 	[probrems]
 	Driver		= FreeTDS
@@ -30,7 +22,7 @@ Plan B was to fall back to a (potentially) slower solution and that is ODBC. I w
 	TDS_Version = 7.0
 
 
-#####/etc/odbcinst.ini File
+####/etc/odbcinst.ini File
 
 	[FreeTDS]
 	Description = FreeTDS
@@ -43,7 +35,7 @@ Plan B was to fall back to a (potentially) slower solution and that is ODBC. I w
 
 There is probably some fine-tuning that can be done in these settings. For instance, CPReuse I changed from 5 (default) to 20. Guessing that it would give me a bigger connection pool. I also read that changing Threading to 1 can improve performance in a multithreaded environment. [Reference](http://stackoverflow.com/questions/4207458/using-unixodbc-in-a-multithreaded-concurrent-setting)
 
-####VERY Important
+###VERY Important
 I was having some strange behavior when running a high volume of requests through the connector. It seemed to be only inserting 7 records out of 200 and ignoring the remainder. I couldn't explain it other then maybe there was some internal buffer limitation. Turns out that the adding...
 	
 	TDS_Version = 7.0
@@ -51,24 +43,24 @@ I was having some strange behavior when running a high volume of requests throug
 ... to your /etc/odbc.ini file fixes that issue.
 
 
-####Outcome
+###Outcome
 I was very pleased by now that (A) I had Nodejs talking to MSSQL - a requirement to even consider Node in my environment. And (B) Node responds extremely fast even though the ODBC connection seems to queue the requests. That means, I can get a response from Node while my 1000 inserts are still running because they aren't going to return any data.
 
 -----------------------------
 
-#####JMeter Performance Results
+####JMeter Performance Results
 This was only using one worker. I could get much greater performance with 1 worker per CPU.
-![JMeter Test Plan Nodejs ODBC FreeTDS](/a/nodejs-unixodbc-freetds-mssql/i/nodejs-odbc-tds-performance.jpg)
+![JMeter Test Plan Nodejs ODBC FreeTDS](/articles/2011111201/nodejs-odbc-tds-performance.jpg)
 
 -----------------------------
 
-#####System Monitor During Jmeter Test
+####System Monitor During Jmeter Test
 What is interesting here is that Node responded to all the of requests quickly but the ODBC connector or FreeTDS, queued the INSERT statements and sent them to MSSQL asyncronasly. *Note - I know this connection looks slow, it was running on a VM against a SQL VM.
-![Nodejs System Monitor INSERT Queue](/a/nodejs-unixodbc-freetds-mssql/i/system-monitor-performance-network-traffic.jpg)
+![Nodejs System Monitor INSERT Queue](/articles/2011111201/system-monitor-performance-network-traffic.jpg)
 
 -----------------------------
 
-#####Nodejs Code
+####Nodejs Code
 
 	
 	var odbc = require("odbc");
@@ -102,11 +94,11 @@ What is interesting here is that Node responded to all the of requests quickly b
 		});
 	});
 
-####Connection Not Available
+###Connection Not Available
 `db.open` is a function that takes the connection string and a callback as arguments. Its important to remember that the database connection isn't available until that callback is executed. Below I show what does work and what doesn't.
 
-#####Success
-![Nodejs UnixODBC Works inside of Callback](/a/nodejs-unixodbc-freetds-mssql/i/nodejs-odbc-freetds-success-inside-of-handler.jpg)
+####Success
+![Nodejs UnixODBC Works inside of Callback](/articles/2011111201/nodejs-odbc-freetds-success-inside-of-handler.jpg)
 
-#####Failure
-![Nodejs UnixODBC Failed Connection Not Open](/a/nodejs-unixodbc-freetds-mssql/i/nodejs-odbc-freetds-failed-outside-of-handler.jpg)
+####Failure
+![Nodejs UnixODBC Failed Connection Not Open](/articles/2011111201/nodejs-odbc-freetds-failed-outside-of-handler.jpg)

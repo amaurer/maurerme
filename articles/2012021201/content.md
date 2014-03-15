@@ -1,12 +1,5 @@
-/***
-title=JavaScript Error Handler in the Browser and Nodejs
-createdDateTime=1329069187000
-author=Andrew Maurer
-uid=20120212
-summary=A simple example of creating a global error handler and notification system.
-*/
 
-###Wha!?!? I Can Capture JavaScript Errors?
+##Wha!?!? I Can Capture JavaScript Errors?
 Yep, most developers don't know or aren't using the `window.onerror` method. Its a global function that is fired whenever there is a JavaScript exception thrown. Its default value is `null`. With this handler, you can gain insight into when your application is throwing errors instead of waiting for a customer to tell you things aren't working right. A customer telling you something is wrong is the last thing you want, am I right?!?
 
 ###About the Code

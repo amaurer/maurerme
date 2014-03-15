@@ -1,12 +1,5 @@
-/***
-title=Nodejs String Building - Buffers, Arrays and Concatenation
-createdDateTime=1321837940000
-author=Andrew Maurer
-uid=2011112001
-summary=There have been plenty of concerns on building strings in JavaScript with the advent of single page browser applications. I'll go over the differences and the considerations.
-*/
 
-###Why you should care about how you build strings
+##Why you should care about how you build strings
 In JavaScript, strings are immutable which means that you can't alter the original string. Instead, the old string is kept in memory (and likely abandoned) and a new string is created with your changes. Its important to know this because this method could eat precious memory and processing power.
 
 ###The different ways to build strings

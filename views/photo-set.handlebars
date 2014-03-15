@@ -1,11 +1,10 @@
-
 <div id="content">
 	<div class="inner-content">
 		<div class="portfolio-page">
-			<div class="portfolio-box">
-				<!-- http://www.flickr.com/services/api/misc.urls.html -->
-				{{#each flickrCollection}}
-				{{#each photos}}
+			<h1>{{flickrSet.title._content}}</h1>
+			<div class="portfolio-box isotope">
+				{{#each flickrSet.photos}}
+				{{#if visibility.ispublic}}
 				<div class="project-post">
 					<img alt="{{title._content}}" src="http://farm{{farm}}.staticflickr.com/{{server}}/{{id}}_{{secret}}.jpg">
 					<div class="hover-box">
@@ -16,7 +15,7 @@
 						</div>
 					</div>
 				</div>
-				{{/each}}
+				{{/if}}
 				{{/each}}
 			</div>
 		</div>
