@@ -17,17 +17,17 @@ var app = express();
 	}));
 	app.set("view engine", "handlebars");
 	app.use(express.favicon(path.join(__dirname, "/public/images/favicon.ico"))); 
-	app.use(express.logger("dev"));
 	//app.use(express.json());
 	app.use(express.urlencoded());
 	app.use(express.methodOverride());
 	app.use(app.router);
 	app.use(express.static(path.join(__dirname, "public")));
-	app.use(express.static(path.join(__dirname, "articles")));
+	app.use("/articles", express.static(path.join(__dirname, "articles")));
 
 // development only
 if ("development" == app.get("env")) {
 	app.use(express.errorHandler());
+	app.use(express.logger("dev"));
 	var app2 = express();
 		app2.set("port", 3000);
 		app2.use(app2.router);
@@ -41,7 +41,7 @@ if ("development" == app.get("env")) {
 	var Flickr = require("flickrapi");
 	var flickrOptions = {
 		api_key: customSettings.flickr.apiKey,
-		secret: "customSettings.flickr.secretKey
+		secret: customSettings.flickr.secretKey
 	};
 	Flickr.authenticate(flickrOptions, Flickr.downsync(path.join(__dirname, "/flickrdata/")));
 	*/

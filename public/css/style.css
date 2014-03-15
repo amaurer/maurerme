@@ -816,6 +816,15 @@ ul li {
     width: 100%;
 }
 
+/*-------------------------------------------------*/
+/* =  home 4
+/*-------------------------------------------------*/
+
+.portfolio-page h1 {
+    padding : 20px 0px 0px 10px;
+    margin-top: 0px;
+}
+
 
 /*-------------------------------------------------*/
 /* =  blog-page
@@ -1309,7 +1318,9 @@ a.load-more:hover {
     color: #343434;
 }
 
-.profile-section {
+.profile-section,
+.skills-section,
+.certification-section {
     margin-bottom: 45px;
     overflow: hidden;
 }
@@ -1326,7 +1337,6 @@ a.load-more:hover {
 
 .my-photo-profile img {
     max-width: 100%;
-    margin-left: -20px;
 }
 
 .profile-section h3 {
@@ -1351,8 +1361,8 @@ a.load-more:hover {
 
 .print-section a {
     display: inline-block;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     background: #a4a4a4;
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -1371,7 +1381,7 @@ a.load-more:hover {
 }
 
 .print-section a i {
-    line-height: 55px;
+    line-height: 45px;
     color: #fff;
     font-size: 20px;
 }
@@ -1387,8 +1397,8 @@ ul.social-list li {
 
 ul.social-list li a {
     display: inline-block;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     background: #a4a4a4;
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -1407,7 +1417,7 @@ ul.social-list li a:hover {
 }
 
 ul.social-list li a  i {
-    line-height: 55px;
+    line-height: 45px;
     color: #fff;
     font-size: 20px;
 }
@@ -1501,6 +1511,10 @@ ul.star-rate li a i {
 .services-section {
     border-bottom: 1px solid #d9d6d6;
     margin-bottom: 35px;
+}
+
+.services-section img {
+    max-width: 100%;
 }
 
 .services-box {
