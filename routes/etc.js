@@ -8,9 +8,11 @@ etc.prototype.init = function(mymvc, app) {
 
 	var self = this;
 
+/*
 	app.get("/robots.txt", function(req, res){
-		res.send(200, "");
+		res.send(200, "User-agent: *\n\rDisallow:");
 	});
+*/
 
 	app.get("/sitemap.xml", function(req, res){
 		res.send(200, "");
