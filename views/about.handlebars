@@ -2,15 +2,15 @@
 <div id="content">
 	<div class="inner-content">
 		<div class="about-page">
-			<div class="container">
+			<div class="container" itemscope itemtype="http://schema.org/Person">
 				<div class="row">
 
 					<div class="col-md-6">
 						<div class="profile-section">
 							<div class="profile-section-content">
 								<h2>About Me</h2>
-								<h3>My name is Andrew Maurer</h3>
-								<span>I am a Sr. Web Developer</span>
+								<h3>My name is <span itemprop="name">Andrew Maurer</span></h3>
+								<span itemprop="jobTitle">I am a Sr. Web Developer</span>
 								<div class="print-section">
 									<span>Print or Download my CV</span>
 									<a href="#"><i class="fa fa-print"></i></a>
@@ -24,13 +24,13 @@
 								</div>
 							</div>
 							<div class="my-photo-profile">
-								<img alt="Andrew Maurer (maurerdotme)" src="/images/AMaurerFinal2.jpg">
+								<img itemprop="image" alt="Andrew Maurer (maurerdotme)" src="/images/AMaurerFinal2.jpg">
 							</div>
 						</div>
 
 						<div class="skills-section">
 							<h2>MY FOCUS</h2>
-							<p>I spend most of my time writing JavaScript. Either on the client or in Node.js. I trade performance for readability, simplicity above complexity and convention over configuration.</p>
+							<p itemprop="description">I spend most of my time writing JavaScript. Either on the client or in Node.js. I trade performance for readability, simplicity above complexity and convention over configuration.</p>
 
 							<div class="meter nostrips">
 								<p>JavaScript <span>95%</span></p>
@@ -79,13 +79,13 @@
 
 						<div class="about-me">
 							<h2>MY PERSONAL LIFE</h2>
-							<p>While I do code a lot in my personal time, I have other hobbies that keep me busy. First is my dog <a href="/">Tobi</a>. He is a 19 month old, 13 lb. Italian Greyhound that is full of energy and friends with everyone he meets.</p>
+							<p itemprop="description">While I do code a lot in my personal time, I have other hobbies that keep me busy. First is my dog <a href="/">Tobi</a>. He is a 19 month old, 13 lb. Italian Greyhound that is full of energy and friends with everyone he meets.</p>
 							<p>I recently earned my <a href="/">pilot license</a> that took a lot of hard work and time to get. It isn't something that I can ever stop studying which is much like programming. Something that is always changing and that you need to keep your skills sharp in. My adventures can be found <a href="/">here</a>.
 
-							<p>Other things that I've done in the past are <a href="/">photography</a>, scuba-diving (sorry no photos) and collecting old books.</p>
+							<p itemprop="description">Other things that I've done in the past are <a href="/">photography</a>, scuba-diving (sorry no photos) and collecting old books.</p>
 						</div>
 
-						<div class="certification-section">
+						<div class="certification-section" itemprop="awards">
 							<h2>Certifications</h2>
 							<p>
 							Advanced ColdFusion 8 <br/>

@@ -5,24 +5,24 @@
 			<div class="blog-masonry">
 
 				{{#each photoSets}}
-				<div class="blog-post">
+				<div class="blog-post" itemscope temtype="http://schema.org/Photograph">
 					<div class="gal-content">
-						<img alt="" src="http://farm{{farm}}.staticflickr.com/{{server}}/{{primary}}_{{secret}}_z.jpg" />
+						<img itemprop="image" alt="{{title._content}}" src="http://farm{{farm}}.staticflickr.com/{{server}}/{{primary}}_{{secret}}_z.jpg" />
 						<div class="blog-hover">
 							<a class="read-more" href="/photos/{{id}}/{{title._content}}/">Read More ></a>
 						</div>		
 					</div>
 					<div class="post-title">
-						<h2><a href="/photos/{{id}}/{{title._content}}/">{{title._content}}</a></h2>
+						<h2><a itemprop="url" href="/photos/{{id}}/{{title._content}}/">{{title._content}}</a></h2>
 						<ul class="post-tags">
-							<li><a href="#"><i class="fa fa-user"></i>Andrew Maurer</a></li>
-							<li><a href="#"><i class="fa fa-calendar"></i>{{displayDate}}</a></li>
+							<li><a href="#"><i class="fa fa-user"></i><span itemprop="author">Andrew Maurer</span></a></li>
+							<li><a href="#"><i class="fa fa-calendar"></i><span itemprop="dateCreated">{{displayDate}}</span></a></li>
 							<li><a href="#"><i class="fa fa-comments"></i>{{count_comments}} comments</a></li>
 						</ul>
 					</div>
 					{{#if description._content}}
 					<div class="post-content">
-						<p>{{description._content}}</p>
+						<p itemprop="description">{{description._content}}</p>
 					</div>
 					{{/if}}
 				</div>
