@@ -60,9 +60,9 @@ In Summary, here is my [test](/articles/2011110403/jmeter-intro.js) and a list o
 * [maurerdotme Test Plan](/articles/2011110403/maurerdotme.jmx.xml)
 
 #####Scripts
-* [getArticleResult.js](/articles/2011110403/getArticleResult.js)
-* [getPhoto.js](/articles/2011110403/getPhoto.js)
-* [getPhotoResult.js](/articles/2011110403/getPhotoResult.js)
+* [getArticleResult.js](/articles/2011110402/getArticleResult.js)
+* [getPhoto.js](/articles/2011110402/getPhoto.js)
+* [getPhotoResult.js](/articles/2011110402/getPhotoResult.js)
 
 #####Reference
 * HTTP Request Sampler - [http://jakarta.apache.org/jmeter/usermanual/component_reference.html](http://jakarta.apache.org/jmeter/usermanual/component_reference.html "HTTP Request Sampler")
@@ -70,5 +70,5 @@ In Summary, here is my [test](/articles/2011110403/jmeter-intro.js) and a list o
 * Complete JMeter Reference - [http://jakarta.apache.org/jmeter/api/](http://jakarta.apache.org/jmeter/api/ "Complete JMeter Reference")
 * Regex Tester - [http://jakarta.apache.org/oro/demo.html](http://jakarta.apache.org/oro/demo.html "Regex Tester")
 
-[![Performance Summary of Maurer.me running Node.js](/articles/2011110403/jmeter-nodejs-performance-summary-fit.jpg)](/articles/2011110403/jmeter-nodejs-performance-summary.jpg)
+[![Performance Summary of Maurer.me running Node.js](/articles/2011110402/jmeter-nodejs-performance-summary-fit.jpg)](/articles/2011110402/jmeter-nodejs-performance-summary.jpg)
 
